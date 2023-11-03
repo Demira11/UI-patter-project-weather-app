@@ -1,31 +1,36 @@
 # UI-patter-project-weather-app
 
 
-Html: 
-Made usre to have my CSS and HTML files connected.
-Imported bootstrap, both CSS and JS links.
-Imported the npm axios link as well which I found on gitHub.
+Welcome to the Weather App! This application allows you to check the current
+weather and the forecast for the next six days in any city around the world.
 
-Created a basic primitive layout. 
-Tried to replicate or at least make a similar layout as the google weather forecast.
+Features Search Functionality: Enter the name of the city you want to check the
+weather for and click the "Search" button. Current Weather Display: Get
+real-time information about the temperature, weather description, humidity, wind
+speed, and current date and time for the specified city. Weather Icon: A
+corresponding weather icon representing the current weather conditions is
+displayed. Temperature Units: Toggle between Celsius (°C) and Fahrenheit (°F) to
+view the temperature in your preferred unit. 6-Day Forecast: View a 6-day
+weather forecast, including the maximum and minimum temperatures for each day.
+Responsive Design: The app is designed to work seamlessly on various devices,
+including desktops, tablets, and smartphones. Technologies Used HTML: Provides
+the structure of the weather app. CSS: Styles the user interface and ensures
+responsiveness. JavaScript: Implements the weather API integration, data
+fetching, and dynamic content updating. Axios: Utilized for making HTTP requests
+to the OpenWeatherMap API. Bootstrap: Used for styling components and creating a
+responsive layout. How to Use Enter the name of the city you want to check the
+weather for in the search bar. Click the "Search" button or press Enter to
+display the weather information for the specified city. Toggle between Celsius
+and Fahrenheit by clicking on the respective temperature unit link. Scroll down
+to view the 6-day weather forecast, including the maximum and minimum
+temperatures for each day. Attribution Weather data is provided by
+OpenWeatherMap.
 
-CSS: 
-Took the exact colors of the google weather forecast (found them through the conosle).
-The rest of my CSS is pretty self explandetory. 
-Made mostly sure that the layout is adjusted properly. 
+Credits This Weather App is an open-source project created by Demira Pasalic.
+You can view the source code on GitHub.
 
-JS: 
-First intergated (or at least tried) the API key.
-Went to Open Weather Map and created an API key which didn't work. 
-Took me about 11 API keys until I finally found one that worked.
-Added the API key to my JS file (that was the first thing I added into my JS file).
-Went into the open weather map to look up the ''current weather Data'' as they had hourly, weekly and so on. 
-Integrated that into my JS.
-After that added the axios link. 
+Enjoy checking the weather with this app! If you have any feedback, issues, or
+suggestions, feel free to contribute or contact the developer. Stay informed
+about the weather conditions wherever you go!
 
-My original idea was to have the city, temperature, time and date change but I only managed to make the city and temperature change. Time is still off. I assume it's beacuse of the API key. Most of the keys I tried (the ones who did work, only made halp of my code visoble for some reason???? No clue why!!!! The one I'm using now is the only one that worked fully!
-I pulled the weather icons also from the Open Weather Map. 
-MAde sure to diplay the changes by using the inner.html.
-Wasn't able to show percipitation as I didn't find it in the console.
-All in all this took me 4 full days of work. Morning till bed time.
-Some of you may be quicker but for me it was no easy at all. Googled a lot and then some more!!!!
+Demo: https://weather-app-js-vanilla.netlify.app/
